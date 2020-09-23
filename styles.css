@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand";
+  color: #212c41;
+}
+
+.bg-dark {
+  background-color: #d4ddee !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #878787;
+}
+
+.navbar-brand img {
+  width: 10em;
+}
+
+.justify-content-stretch {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  color: #212c41;
+  font-size: 1.5em;
+  margin-right: 0.8em;
+  padding-top: 0.2em;
+  border-top: 0.2em solid transparent;
+}
+
+.nav-link:hover {
+  color: #FFFFFF;
+}
+
+.active {
+  color: #212c41 !important;
+  border-top: 0.2em solid #FFFFFF;
+}
+
+.menu-container {
+  background-color: #d4ddee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.menu-logo img {
+  max-width: 14em;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2em;
+}
+
+.menu-item {
+  margin: 0 1.5em;
+  font-size: 1.5em;
+  height: 100%;
+  padding: 0.3em;
+}
+
+.sign-up {
+  background-color: #ff5f5c;
+  color: #FFFFFF;
+  border-radius: 0.3em;
+}
+
+.body-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d4ddee;
+  color: #212c41;
+}
+
+.body-container h2 {
+  margin-top: 1em;
+  font-size: 5em;
+}
+
+.body-container p {
+  margin-top: 1.3em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.button-container {
+  margin: 1.75em 0em;
+  display: flex;
+  justify-content: space-around;
+  width: 40em;
+}
+
+.button {
+  padding: 1em 1em;
+  width: 17.5em;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5em;
+}
+
+.download {
+  background-color: #ff5f5c;
+  color: #FFFFFF;
+}
+
+.learn {
+  background-color: #212c41;
+  color: #FFFFFF;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+  height: 12.5em;
+  align-items: center;
+  margin: 1em 0em;
+}
+
+.link {
+  height: 100%;
+  min-width: 28%;
+  max-width: 28%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 12px;
+  color: #FFFFFF;
+  background-color: #212c41;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
