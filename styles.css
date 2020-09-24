@@ -97,6 +97,30 @@ body {
   color: #b3b3b3;
 }
 
+.sub-element .body-text {
+  top: 40%;
+}
+
+.sub-element .body-button {
+  top: 60%;
+}
+
+.footer {
+  text-align: center;
+  background-color: #3e4f59;
+  padding: 0.4em 0em;
+}
+
+.footer a {
+  color: #FFFFFF;
+  font-size: 1.0em;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
 }
