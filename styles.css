@@ -45,6 +45,7 @@ body {
   font-size: 1.5em;
   margin: 0.6em 0.5em;
   padding-top: 0.2em;
+  padding-left: 0.4em !important;
   border-left: 0.075em solid transparent;
 }
 
